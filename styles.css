@@ -130,7 +130,7 @@ body {
 }
 
 .testimony-card {
-    width: 300px;
+    /* width: 300px; */
 }
 
 /* TUTOS */
@@ -177,7 +177,7 @@ footer {
 }
 
 .test {
-    width: 180px;
+    width: 160px;
 }
 
 @media screen and (max-width:952px) {
@@ -187,6 +187,10 @@ footer {
 
     .text {
         font-size: 20px;
+    }
+
+    .pays {
+        text-align: center;
     }
 
 
