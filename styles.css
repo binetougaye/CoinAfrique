@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.header {
+    background-image: url('images/coin-afrique-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 50px;
+
+}
+
+.navbar {
+    background-color: #EDEFF6;
+}
+
+/* A PROPOS */
+.a-propos {
+    background-image: url('images/banner-apropos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+/* TEAM */
+.team h1 {
+    color: #F0BB2F;
+}
+
+/* Presse */
+.presse-bg {
+    background-image: url('images/banner-presse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+
+}
+
+#presse h1 {
+    color: #F0BB2F;
+}
+
+.card h6,
+.span {
+    color: #F0BB2F;
+}
+
+.span,
+.para {
+    font-size: 12px;
+}
+
+/* Blog */
+.blog-bg {
+    background-image: url('images/banner-blog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.test {
+    text-wrap: nowrap;
+}
+
+#blog .card {
+    height: 500px;
+}
+
+.btn-navigation {
+    background-color: #2B4558;
+    width: 30px;
+}
+
+.active {
+    background-color: #F0BB2F;
+}
+
+.btn-navigation:hover {
+    background-color: #F0BB2F;
+    cursor: pointer;
+}
+
+/* CONTACT */
+#contact {
+    background-color: #CCC;
+}
+
+.btn {
+    background-color: #F0BB2F;
+}
+
+.contact-bg {
+    background-image: url('images/banner-contact.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+/* Testimony */
+#testimony {
+    background-image: url('images/fondo-temoignages.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+
+}
+
+.testimony-card {
+    width: 300px;
+}
+
+/* TUTOS */
+.tutos {
+    background-image: url('images/banner-tutoriels.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+#map {
+    background-image: url('images/map.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+/* FOOTER */
+footer {
+    background-color: #2B4558;
+}
+
+.fa::before {
+    font-size: 30px;
+}
+
+.para2 {
+    color: #7E97AA;
+    font-size: 12px;
+}
+
+.header {
+    position: relative;
+}
+
+.row1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test {
+    width: 200px;
+}
+
+@media screen and (max-width:952px) {
+    .middle {
+        flex-wrap: wrap;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+
+}
